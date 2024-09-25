@@ -32,111 +32,149 @@
       </div>
     </nav>
 
-    <!-- Main Content -->
-    <div class="container mx-auto mt-8 px-4 md:px-20">
-      <h1 class="text-2xl font-bold text-gray-800 mb-6">Important FAQ</h1>
+    <!-- Main section -->
+    <main>
+      <div class="container mx-auto mt-8 px-4 md:px-20">
+        <h1 class="text-2xl font-bold text-gray-800 mb-6">Important FAQ</h1>
 
-      <!-- FAQ Section -->
-      <div class="flex flex-col space-y-4">
-        <div class="bg-white p-6 rounded-lg shadow-md">
-          <div class="mb-4 px-2 rounded-md flex justify-between items-center">
-            <h2
-              class="text-xl font-semibold text-gray-700 mb-2 cursor-pointer"
-              onclick="toggleTextarea(1)"
-            >
-              What is the Document Object Model(DOM)?
-            </h2>
-            <img
-              src="./assets/down-arrow.png"
-              id="arrowIcon1"
-              class="w-5 cursor-pointer"
-              onclick="toggleTextarea(1)"
-            />
+        <!-- FAQ Section -->
+        <div class="flex flex-col space-y-4">
+          <div class="bg-white p-6 rounded-lg shadow-md">
+            <div class="mb-4 px-2 rounded-md flex justify-between items-center">
+              <h2
+                class="text-xl font-semibold text-gray-700 mb-2 cursor-pointer"
+                onclick="toggleTextarea(1)"
+              >
+                What is the Document Object Model(DOM)?
+              </h2>
+              <img
+                src="./assets/down-arrow.png"
+                id="arrowIcon1"
+                class="w-5 cursor-pointer"
+                onclick="toggleTextarea(1)"
+              />
+            </div>
+
+            <textarea
+              id="answerTextarea1"
+              placeholder="Write your answer"
+              class="border border-gray-300 px-2 mt-2 w-full rounded-md focus:outline-none focus:ring-2 focus:ring-green-500 hidden"
+              rows="4"
+            ></textarea>
           </div>
 
-          <textarea
-            id="answerTextarea1"
-            placeholder="Write your answer"
-            class="border border-gray-300 px-2 mt-2 w-full rounded-md focus:outline-none focus:ring-2 focus:ring-green-500 hidden"
-            rows="4"
-          ></textarea>
-        </div>
+          <div class="bg-white p-6 rounded-lg shadow-md">
+            <div class="mb-4 px-2 rounded-md flex justify-between items-center">
+              <h2
+                class="text-xl font-semibold text-gray-700 mb-2 cursor-pointer"
+                onclick="toggleTextarea(2)"
+              >
+                How do you select an element from the dom?
+              </h2>
+              <img
+                src="./assets/down-arrow.png"
+                id="arrowIcon2"
+                class="w-5 cursor-pointer"
+                onclick="toggleTextarea(2)"
+              />
+            </div>
 
-        <div class="bg-white p-6 rounded-lg shadow-md">
-          <div class="mb-4 px-2 rounded-md flex justify-between items-center">
-            <h2
-              class="text-xl font-semibold text-gray-700 mb-2 cursor-pointer"
-              onclick="toggleTextarea(2)"
-            >
-              How do you select an element from the dom?
-            </h2>
-            <img
-              src="./assets/down-arrow.png"
-              id="arrowIcon2"
-              class="w-5 cursor-pointer"
-              onclick="toggleTextarea(2)"
-            />
+            <textarea
+              id="answerTextarea2"
+              placeholder="Write your answer"
+              class="border border-gray-300 px-2 mt-2 w-full rounded-md focus:outline-none focus:ring-2 focus:ring-green-500 hidden"
+              rows="4"
+            ></textarea>
           </div>
 
-          <textarea
-            id="answerTextarea2"
-            placeholder="Write your answer"
-            class="border border-gray-300 px-2 mt-2 w-full rounded-md focus:outline-none focus:ring-2 focus:ring-green-500 hidden"
-            rows="4"
-          ></textarea>
-        </div>
+          <div class="bg-white p-6 rounded-lg shadow-md">
+            <div class="mb-4 px-2 rounded-md flex justify-between items-center">
+              <h2
+                class="text-xl font-semibold text-gray-700 mb-2 cursor-pointer"
+                onclick="toggleTextarea(3)"
+              >
+                What is event delegation in the context of the DOM, and why is
+                it useful?
+              </h2>
+              <img
+                src="./assets/down-arrow.png"
+                id="arrowIcon3"
+                class="w-5 cursor-pointer"
+                onclick="toggleTextarea(3)"
+              />
+            </div>
 
-        <div class="bg-white p-6 rounded-lg shadow-md">
-          <div class="mb-4 px-2 rounded-md flex justify-between items-center">
-            <h2
-              class="text-xl font-semibold text-gray-700 mb-2 cursor-pointer"
-              onclick="toggleTextarea(3)"
-            >
-              What is event delegation in the context of the DOM, and why is it
-              useful?
-            </h2>
-            <img
-              src="./assets/down-arrow.png"
-              id="arrowIcon3"
-              class="w-5 cursor-pointer"
-              onclick="toggleTextarea(3)"
-            />
+            <textarea
+              id="answerTextarea3"
+              placeholder="Write your answer"
+              class="border border-gray-300 mt-2 w-full rounded-md focus:outline-none focus:ring-2 focus:ring-green-500 hidden"
+              rows="4"
+            ></textarea>
           </div>
 
-          <textarea
-            id="answerTextarea3"
-            placeholder="Write your answer"
-            class="border border-gray-300 mt-2 w-full rounded-md focus:outline-none focus:ring-2 focus:ring-green-500 hidden"
-            rows="4"
-          ></textarea>
-        </div>
+          <div class="bg-white p-6 rounded-lg shadow-md">
+            <div class="mb-4 rounded-md flex justify-between items-center">
+              <h2
+                class="text-xl font-semibold text-gray-700 mb-2 cursor-pointer"
+                onclick="toggleTextarea(4)"
+              >
+                How do you manipulate an element's attributes and styles using
+                the DOM?
+              </h2>
+              <img
+                src="./assets/down-arrow.png"
+                id="arrowIcon4"
+                class="w-5 cursor-pointer"
+                onclick="toggleTextarea(4)"
+              />
+            </div>
 
-        <div class="bg-white p-6 rounded-lg shadow-md">
-          <div class="mb-4 rounded-md flex justify-between items-center">
-            <h2
-              class="text-xl font-semibold text-gray-700 mb-2 cursor-pointer"
-              onclick="toggleTextarea(4)"
-            >
-              How do you manipulate an element's attributes and styles using the
-              DOM?
-            </h2>
-            <img
-              src="./assets/down-arrow.png"
-              id="arrowIcon4"
-              class="w-5 cursor-pointer"
-              onclick="toggleTextarea(4)"
-            />
+            <textarea
+              id="answerTextarea4"
+              placeholder="Write your answer"
+              class="border border-gray-300 mt-2 w-full rounded-md focus:outline-none focus:ring-2 focus:ring-green-500 hidden"
+              rows="4"
+            ></textarea>
           </div>
-
-          <textarea
-            id="answerTextarea4"
-            placeholder="Write your answer"
-            class="border border-gray-300 mt-2 w-full rounded-md focus:outline-none focus:ring-2 focus:ring-green-500 hidden"
-            rows="4"
-          ></textarea>
         </div>
       </div>
-    </div>
+    </main>
+    <!-- Footer Section -->
+    <footer class="bg-white shadow-md py-6 mt-8">
+      <div class="max-w-6xl mx-auto px-2 md:px-6">
+        <div class="flex flex-col md:flex-row justify-between items-center">
+          <!-- Footer Logo and Text -->
+          <div class="text-center md:text-left mb-4 md:mb-0">
+            <h3 class="text-green-500 font-bold text-xl">Donate Bangladesh</h3>
+            <p class="text-gray-600 text-sm">
+              Together, we can make a difference.
+            </p>
+          </div>
+
+          <div
+            class="flex flex-col md:flex-row space-y-4 md:space-y-0 space-x-0 md:space-x-6 items-center"
+          >
+            <a href="#" class="text-gray-500 hover:text-green-500 text-sm"
+              >About Us</a
+            >
+            <a href="#" class="text-gray-500 hover:text-green-500 text-sm"
+              >Contact</a
+            >
+            <a href="#" class="text-gray-500 hover:text-green-500 text-sm"
+              >Privacy Policy</a
+            >
+            <a href="#" class="text-gray-500 hover:text-green-500 text-sm"
+              >Terms of Service</a
+            >
+          </div>
+        </div>
+        <div class="text-center mt-6">
+          <p class="text-gray-500 text-sm">
+            &copy; 2024 Donate Bangladesh. All Rights Reserved.
+          </p>
+        </div>
+      </div>
+    </footer>
 
     <script src="./blog.js"></script>
   </body>

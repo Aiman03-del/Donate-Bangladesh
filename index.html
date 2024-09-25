@@ -57,178 +57,226 @@
     </nav>
 
     <!-- Donation Section -->
-    <div id="donationSection" class="max-w-6xl mx-auto mt-8 p-4">
-      <div class="grid grid-cols-1 gap-8">
-        <!-- Noakhali Flood -->
-        <div
-          class="bg-white shadow-lg rounded-lg overflow-hidden flex flex-col md:flex-row"
-        >
-          <img
-            src="./assets/noakhali.png"
-            alt=""
-            class="w-full object-cover md:w-1/3"
-          />
-          <div class="p-8 flex flex-col">
-            <div class="flex items-center justify-center md:justify-start">
-              <div class="w-auto flex items-center bg-gray-300 p-2 rounded-lg">
-                <img class="w-5 h-5 mr-2" src="./assets/coin.png" alt="" />
-                <span id="amountNoakhali" class="text-lg font-bold">0 BDT</span>
+    <main>
+      <div id="donationSection" class="max-w-6xl mx-auto mt-8 p-4">
+        <div class="grid grid-cols-1 gap-8">
+          <!-- Noakhali Flood -->
+          <div
+            class="bg-white shadow-lg rounded-lg overflow-hidden flex flex-col md:flex-row"
+          >
+            <img
+              src="./assets/noakhali.png"
+              alt=""
+              class="w-full object-cover md:w-1/3"
+            />
+            <div class="p-8 flex flex-col">
+              <div class="flex items-center justify-center md:justify-start">
+                <div
+                  class="w-auto flex items-center bg-gray-300 p-2 rounded-lg"
+                >
+                  <img class="w-5 h-5 mr-2" src="./assets/coin.png" alt="" />
+                  <span id="amountNoakhali" class="text-lg font-bold"
+                    >0 BDT</span
+                  >
+                </div>
               </div>
-            </div>
 
-            <div class="text-center md:text-left mt-2">
-              <h2 class="text-lg font-semibold">Donate for Noakhali Flood</h2>
-              <p class="text-gray-600">
-                Recent floods have caused significant damage to homes and
-                infrastructure in Noakhali. Your donation helps provide
-                essential support, including food, shelter, and medical
-                assistance to those affected. Together, we can help rebuild
-                lives and restore hope in the community.
-              </p>
-            </div>
+              <div class="text-center md:text-left mt-2">
+                <h2 class="text-lg font-semibold">Donate for Noakhali Flood</h2>
+                <p class="text-gray-600">
+                  Recent floods have caused significant damage to homes and
+                  infrastructure in Noakhali. Your donation helps provide
+                  essential support, including food, shelter, and medical
+                  assistance to those affected. Together, we can help rebuild
+                  lives and restore hope in the community.
+                </p>
+              </div>
 
-            <div class="flex flex-col items-center mt-4">
-              <input
-                id="donationNoakhali"
-                type="text"
-                placeholder="Donation Amount"
-                class="border border-gray-300 p-2 w-full rounded-md focus:outline-none focus:ring-2 focus:ring-green-500"
-              />
-              <button
-                onclick="storeDonation('Noakhali Flood', document.getElementById('donationNoakhali').value, 'amountNoakhali')"
-                class="bg-green-500 text-white w-auto mt-2 p-2 rounded-md hover:bg-green-600 transition"
-              >
-                Donate Now
-              </button>
+              <div class="flex flex-col items-center mt-4">
+                <input
+                  id="donationNoakhali"
+                  type="text"
+                  placeholder="Donation Amount"
+                  class="border border-gray-300 p-2 w-full rounded-md focus:outline-none focus:ring-2 focus:ring-green-500"
+                />
+                <button
+                  onclick="storeDonation('Noakhali Flood', document.getElementById('donationNoakhali').value, 'amountNoakhali')"
+                  class="bg-green-500 text-white w-auto mt-2 p-2 rounded-md hover:bg-green-600 transition"
+                >
+                  Donate Now
+                </button>
+              </div>
             </div>
           </div>
-        </div>
 
-        <!-- Feni Flood-->
-        <div
-          class="bg-white shadow-lg rounded-lg overflow-hidden flex flex-col md:flex-row"
-        >
-          <img
-            src="./assets/feni.png"
-            alt=""
-            class="w-full object-cover md:w-1/3"
-          />
-          <div class="p-8 flex flex-col">
-            <div class="flex items-center justify-center md:justify-start">
-              <div class="w-auto flex items-center bg-gray-300 p-2 rounded-lg">
-                <img class="w-5 h-5 mr-2" src="./assets/coin.png" alt="" />
-                <span id="amountFeni" class="text-lg font-bold">600 BDT</span>
+          <!-- Feni Flood-->
+          <div
+            class="bg-white shadow-lg rounded-lg overflow-hidden flex flex-col md:flex-row"
+          >
+            <img
+              src="./assets/feni.png"
+              alt=""
+              class="w-full object-cover md:w-1/3"
+            />
+            <div class="p-8 flex flex-col">
+              <div class="flex items-center justify-center md:justify-start">
+                <div
+                  class="w-auto flex items-center bg-gray-300 p-2 rounded-lg"
+                >
+                  <img class="w-5 h-5 mr-2" src="./assets/coin.png" alt="" />
+                  <span id="amountFeni" class="text-lg font-bold">600 BDT</span>
+                </div>
               </div>
-            </div>
 
-            <div class="text-center md:text-left mt-2">
-              <h2 class="text-lg font-semibold">Donate for Feni Relief</h2>
-              <p class="text-gray-600">
-                The recent floods in Feni have left many families displaced and
-                in need of urgent help. Your contribution will go towards
-                providing food, clean water, and medical supplies to affected
-                individuals and families. Every little bit helps to restore
-                dignity and safety to those in distress.
-              </p>
-            </div>
+              <div class="text-center md:text-left mt-2">
+                <h2 class="text-lg font-semibold">Donate for Feni Relief</h2>
+                <p class="text-gray-600">
+                  The recent floods in Feni have left many families displaced
+                  and in need of urgent help. Your contribution will go towards
+                  providing food, clean water, and medical supplies to affected
+                  individuals and families. Every little bit helps to restore
+                  dignity and safety to those in distress.
+                </p>
+              </div>
 
-            <div class="flex flex-col items-center mt-4">
-              <input
-                id="donationFeni"
-                type="text"
-                placeholder="Donation Amount"
-                class="border border-gray-300 p-2 w-full rounded-md focus:outline-none focus:ring-2 focus:ring-green-500"
-              />
-              <button
-                onclick="storeDonation('Feni Flood', document.getElementById('donationFeni').value, 'amountFeni')"
-                class="bg-green-500 text-white w-auto mt-2 p-2 rounded-md hover:bg-green-600 transition"
-              >
-                Donate Now
-              </button>
+              <div class="flex flex-col items-center mt-4">
+                <input
+                  id="donationFeni"
+                  type="text"
+                  placeholder="Donation Amount"
+                  class="border border-gray-300 p-2 w-full rounded-md focus:outline-none focus:ring-2 focus:ring-green-500"
+                />
+                <button
+                  onclick="storeDonation('Feni Flood', document.getElementById('donationFeni').value, 'amountFeni')"
+                  class="bg-green-500 text-white w-auto mt-2 p-2 rounded-md hover:bg-green-600 transition"
+                >
+                  Donate Now
+                </button>
+              </div>
             </div>
           </div>
-        </div>
 
-        <!-- Quota Movement -->
-        <div
-          class="bg-white shadow-lg rounded-lg overflow-hidden flex flex-col md:flex-row"
-        >
-          <img
-            src="./assets/quota-protest.png"
-            alt=""
-            class="w-full object-cover md:w-1/3"
-          />
-          <div class="p-8 flex flex-col">
-            <div class="flex items-center justify-center md:justify-start">
-              <div class="w-auto flex items-center bg-gray-300 p-2 rounded-lg">
-                <img class="w-5 h-5 mr-2" src="./assets/coin.png" alt="" />
-                <span id="amountQuota" class="text-lg font-bold">2400 BDT</span>
+          <!-- Quota Movement -->
+          <div
+            class="bg-white shadow-lg rounded-lg overflow-hidden flex flex-col md:flex-row"
+          >
+            <img
+              src="./assets/quota-protest.png"
+              alt=""
+              class="w-full object-cover md:w-1/3"
+            />
+            <div class="p-8 flex flex-col">
+              <div class="flex items-center justify-center md:justify-start">
+                <div
+                  class="w-auto flex items-center bg-gray-300 p-2 rounded-lg"
+                >
+                  <img class="w-5 h-5 mr-2" src="./assets/coin.png" alt="" />
+                  <span id="amountQuota" class="text-lg font-bold"
+                    >2400 BDT</span
+                  >
+                </div>
               </div>
-            </div>
 
-            <div class="text-center md:text-left mt-2">
-              <h2 class="text-lg font-semibold">
-                Donate for Quota Movement Relief
-              </h2>
-              <p class="text-gray-600">
-                During the recent quota movement, many brave individuals faced
-                injuries while advocating for their rights. Your donations will
-                provide necessary medical assistance and rehabilitation support
-                for those injured, helping them recover and continue their fight
-                for justice and equality.
-              </p>
-            </div>
+              <div class="text-center md:text-left mt-2">
+                <h2 class="text-lg font-semibold">
+                  Donate for Quota Movement Relief
+                </h2>
+                <p class="text-gray-600">
+                  During the recent quota movement, many brave individuals faced
+                  injuries while advocating for their rights. Your donations
+                  will provide necessary medical assistance and rehabilitation
+                  support for those injured, helping them recover and continue
+                  their fight for justice and equality.
+                </p>
+              </div>
 
-            <div class="flex flex-col items-center mt-4">
-              <input
-                id="donationQuota"
-                type="text"
-                placeholder="Donation Amount"
-                class="border border-gray-300 p-2 w-full rounded-md focus:outline-none focus:ring-2 focus:ring-green-500"
-              />
-              <button
-                onclick="storeDonation('Quota Movement', document.getElementById('donationQuota').value, 'amountQuota')"
-                class="bg-green-500 text-white w-auto mt-2 p-2 rounded-md hover:bg-green-600 transition"
-              >
-                Donate Now
-              </button>
+              <div class="flex flex-col items-center mt-4">
+                <input
+                  id="donationQuota"
+                  type="text"
+                  placeholder="Donation Amount"
+                  class="border border-gray-300 p-2 w-full rounded-md focus:outline-none focus:ring-2 focus:ring-green-500"
+                />
+                <button
+                  onclick="storeDonation('Quota Movement', document.getElementById('donationQuota').value, 'amountQuota')"
+                  class="bg-green-500 text-white w-auto mt-2 p-2 rounded-md hover:bg-green-600 transition"
+                >
+                  Donate Now
+                </button>
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
 
-    <!-- History Section -->
-    <div id="historySection" class="max-w-6xl mx-auto mt-8 p-4 hidden">
-      <div id="donationList" class="rounded-lg p-4"></div>
-    </div>
+      <!-- History Section -->
+      <div id="historySection" class="max-w-6xl mx-auto mt-8 p-4 hidden">
+        <div id="donationList" class="rounded-lg p-4"></div>
+      </div>
 
-    <!-- Modal Section -->
-    <div
-      id="donationModal"
-      class="fixed inset-0 bg-gray-800 bg-opacity-50 flex justify-center items-center hidden"
-    >
+      <!-- Modal Section -->
       <div
-        class="bg-white p-8 flex flex-col items-center space-y-2 rounded-lg shadow-lg max-w-md w-full"
+        id="donationModal"
+        class="fixed inset-0 bg-gray-800 bg-opacity-50 flex justify-center items-center hidden"
       >
-        <h2
-          class="text-2xl font-bold text-yellow-500 text-center"
-          id="modalTitle"
+        <div
+          class="bg-white p-8 flex flex-col items-center space-y-2 rounded-lg shadow-lg max-w-md w-full"
         >
-          Congrats!
-        </h2>
-        <img class="w-10" src="assets/valid.png" alt="" />
-        <p class="mt-4 text-center" id="modalMessage">
-          You have donated successfully!
-        </p>
-        <button
-          onclick="closeModal()"
-          class="bg-green-500 text-white w-full mt-4 py-2 rounded-md hover:bg-green-600 transition"
-        >
-          Close Confirmation
-        </button>
+          <h2
+            class="text-2xl font-bold text-yellow-500 text-center"
+            id="modalTitle"
+          >
+            Congrats!
+          </h2>
+          <img class="w-10" src="assets/valid.png" alt="" />
+          <p class="mt-4 text-center" id="modalMessage">
+            You have donated successfully!
+          </p>
+          <button
+            onclick="closeModal()"
+            class="bg-green-500 text-white w-full mt-4 py-2 rounded-md hover:bg-green-600 transition"
+          >
+            Close Confirmation
+          </button>
+        </div>
       </div>
-    </div>
+    </main>
+    <!-- Footer Section -->
+    <footer class="bg-white shadow-md py-6 mt-8">
+      <div class="max-w-6xl mx-auto px-2 md:px-6">
+        <div class="flex flex-col md:flex-row justify-between items-center">
+          <!-- Footer Logo and Text -->
+          <div class="text-center md:text-left mb-4 md:mb-0">
+            <h3 class="text-green-500 font-bold text-xl">Donate Bangladesh</h3>
+            <p class="text-gray-600 text-sm">
+              Together, we can make a difference.
+            </p>
+          </div>
+
+          <div
+            class="flex flex-col md:flex-row space-y-4 md:space-y-0 space-x-0 md:space-x-6 items-center"
+          >
+            <a href="#" class="text-gray-500 hover:text-green-500 text-sm"
+              >About Us</a
+            >
+            <a href="#" class="text-gray-500 hover:text-green-500 text-sm"
+              >Contact</a
+            >
+            <a href="#" class="text-gray-500 hover:text-green-500 text-sm"
+              >Privacy Policy</a
+            >
+            <a href="#" class="text-gray-500 hover:text-green-500 text-sm"
+              >Terms of Service</a
+            >
+          </div>
+        </div>
+        <div class="text-center mt-6">
+          <p class="text-gray-500 text-sm">
+            &copy; 2024 Donate Bangladesh. All Rights Reserved.
+          </p>
+        </div>
+      </div>
+    </footer>
 
     <script src="./script.js"></script>
   </body>
