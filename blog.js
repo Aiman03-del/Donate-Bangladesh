@@ -7,16 +7,16 @@ window.addEventListener("scroll", function () {
     navbar.classList.remove("backdrop-opacity-30");
   }
 });
-// toggle text area
-function toggleTextarea(faqNumber) {
-  var textarea = document.getElementById("answerTextarea" + faqNumber);
+// toggle paragraph
+function toggleParagraph(faqNumber) {
+  var paragraph = document.getElementById("answerParagraph" + faqNumber);
   var arrowIcon = document.getElementById("arrowIcon" + faqNumber);
 
-  if (textarea.classList.contains("hidden")) {
-    textarea.classList.remove("hidden");
+  if (paragraph.classList.contains("hidden")) {
+    paragraph.classList.remove("hidden");
     arrowIcon.src = "./assets/up-arrow.png";
   } else {
-    textarea.classList.add("hidden");
+    paragraph.classList.add("hidden");
     arrowIcon.src = "./assets/down-arrow.png";
   }
 }
