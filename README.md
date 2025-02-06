@@ -25,7 +25,6 @@ A platform dedicated to connecting donors with people in need, ensuring transpar
 
 ---
 
----
 
 ## 🚀 Installation & Setup  
 1️⃣ **Clone the Repository**  
