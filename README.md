@@ -25,10 +25,6 @@ A platform dedicated to connecting donors with people in need, ensuring transpar
 
 ---
 
-## 📸 Screenshots  
-![Home Page](https://your-image-link.com/homepage.jpg)  
-![Donation Page](https://your-image-link.com/donationpage.jpg)  
-
 ---
 
 ## 🚀 Installation & Setup  
